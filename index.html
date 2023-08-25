@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1>Etch-a-Sketch</h1>
+    <h2>Hover your cursor over the grid!</h2>
+    <div class="container">
+        <div class="controls">
+            <div class="controls-inner">
+                <h3>Controls</h3>
+                <div class="grid-size">8x8</div>
+                <input type="range" min="2" max="30" value="8">
+                <button class="apply">Apply</button>
+                <button class="reset">
+                    Reset grid
+                </button>
+            </div>
+        </div>
+        <div class="grid" id="grid">
+
+        </div>
+    </div>
+    
+</body>
+</html>
